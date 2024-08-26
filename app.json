@@ -2,7 +2,7 @@
   "expo": {
     "name": "key-locker",
     "slug": "key-locker",
-    "owner": "wataru",
+    "owner": "mansquatch",
     "privacy": "unlisted",
     "version": "1.0.0",
     "platforms": ["ios", "android", "web"],
