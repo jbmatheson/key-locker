@@ -6,6 +6,7 @@
     "paths": {
       "@assets/*": ["./assets/*"],
       "@components/*": ["./src/components/*"],
+      "@constants/*": ["./src/constants/*"],
       "@views/*": ["./src/views/*"],
       "@layouts/*": ["./src/layouts/*"],
       "@hooks": ["./src/hooks/index.ts"],

@@ -1,9 +1,9 @@
-import React from 'react';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { HomeStackNavigator, ProfileStackNavigator } from '../stack/Stack';
+import { TabBarStatus, TabParamList } from './Tab.typeDefs';
+
 import { AntDesign } from '@expo/vector-icons';
 import { colors } from '@theme';
-import { TabParamList, TabBarStatus } from './Tab.typeDefs';
-import { HomeStackNavigator, ProfileStackNavigator } from '../stack/Stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 const Tab = createBottomTabNavigator<TabParamList>();
 

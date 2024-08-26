@@ -1,6 +1,5 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
 import GradientButton from './GradientButton';
+import renderer from 'react-test-renderer';
 
 describe('GradientButton Component', () => {
   it('renders correctly with a title and gradation colors', () => {

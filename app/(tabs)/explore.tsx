@@ -1,11 +1,11 @@
-import Ionicons from '@expo/vector-icons/Ionicons';
-import { StyleSheet, Image, Platform } from 'react-native';
+import { Image, Platform, StyleSheet } from 'react-native';
 
-import { Collapsible } from '@/components/Collapsible';
-import { ExternalLink } from '@/components/ExternalLink';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import { Collapsible } from 'components/Collapsible';
+import { ExternalLink } from 'components/ExternalLink';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import ParallaxScrollView from 'components/ParallaxScrollView';
+import { ThemedText } from 'components/ThemedText';
+import { ThemedView } from 'components/ThemedView';
 
 export default function TabTwoScreen() {
   return (
@@ -72,8 +72,8 @@ export default function TabTwoScreen() {
         <ThemedText>
           This template includes an example of an animated component. The{' '}
           <ThemedText type="defaultSemiBold">components/HelloWave.tsx</ThemedText> component uses
-          the powerful <ThemedText type="defaultSemiBold">react-native-reanimated</ThemedText> library
-          to create a waving hand animation.
+          the powerful <ThemedText type="defaultSemiBold">react-native-reanimated</ThemedText>{' '}
+          library to create a waving hand animation.
         </ThemedText>
         {Platform.select({
           ios: (
