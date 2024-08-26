@@ -29,11 +29,11 @@
     },
     "extra": {
       "eas": {
-        "projectId": "18adc0d0-eb1d-11e9-8009-d524ed5cc4a7"
+        "projectId": "3da1445f-38a8-4751-8b3b-0151c70845e1"
       }
     },
     "updates": {
-      "url": "https://u.expo.dev/18adc0d0-eb1d-11e9-8009-d524ed5cc4a7"
+      "url": "https://u.expo.dev/3da1445f-38a8-4751-8b3b-0151c70845e1"
     },
     "runtimeVersion": {
       "policy": "sdkVersion"
